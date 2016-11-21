@@ -1,6 +1,6 @@
 {
   "name": "http-later",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "queue HTTP requests and replay them later",
   "main": "index.js",
   "dependencies": {
@@ -16,7 +16,7 @@
     "colors": "^1",
     "async": "^1",
     "concussion": "^1",
-    "http-later-redis": "^1",
+    "http-later-redis": "git+https://github.com/Reiner030/http-later-redis.git",
     "event-emitter-forward": "^1",
     "noopable": "^1",
     "retryable": "^1",
@@ -25,7 +25,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "Richard Remer (reanjr@gmail.com)",
+  "author": "Richard Remer (reanjr@gmail.com) / modified by Reiner Keller (Reiner030@gmx.de)",
   "license": "MIT",
   "bin": {
     "http-later": "bin/http-later.js"
@@ -33,9 +33,9 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zingle/http-later.git"
+    "url": "https://github.com/Reiner030/http-later.git"
   },
   "bugs": {
-    "url": "https://github.com/Zingle/http-later/issues"
+    "url": "https://github.com/Reiner030/http-later/issues"
   }
 }
