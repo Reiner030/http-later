@@ -1,6 +1,6 @@
 {
   "name": "http-later",
-  "version": "1.0.2",
+  "version": "1.1.1",
   "description": "queue HTTP requests and replay them later",
   "main": "index.js",
   "dependencies": {
@@ -26,7 +26,10 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "Richard Remer (reanjr@gmail.com) / modified by Reiner Keller (Reiner030@gmx.de)",
+  "author": "Richard Remer (reanjr@gmail.com)",
+  "contributors": [
+    "Reiner Keller"
+  ],
   "license": "MIT",
   "bin": {
     "http-later": "bin/http-later.js"
